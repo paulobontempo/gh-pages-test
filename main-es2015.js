@@ -867,7 +867,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-content>\n    <ion-fab class=\"fab-modal-action\" vertical=\"center\" horizontal=\"center\" slot=\"fixed\">\n\n        <ion-button class=\"btn-close btn-light\"\n                    (click)=\"onClose()\">\n        </ion-button>\n\n        <div class=\"content-modal\">\n            <p class=\"lb-title\">Confirmar transferência</p>\n\n            <p>Valor a transferir <br>\n                <b>R${{valor}},00</b> <br> <br>\n                Para\n            </p>\n\n            <div *ngIf=\"newContact\">\n                <div class=\"lb-info\">{{info.name}}</div>\n                <div class=\"lb-info\">{{info.institution}}</div>\n\n                <div class=\"display-flex justify-space-between\">\n                    <div class=\"lb-info\">Agência {{info.agency}}</div>\n                    <div class=\"lb-info\">Conta {{info.account}}</div>\n                </div>\n            </div>\n\n            <div class=\"lb-info display-flex justify-start\" *ngIf=\"!newContact\">\n\n                <img alt=\"\" class=\"img-photo\" [ngClass]=\"{'no-photo':!info.foto}\"\n                     [src]=\"info.foto ? info.foto : '/assets/icons/img-icon-avatar.png'\">\n\n                <div class=\"lb-nome\">{{info.nome}}</div>\n            </div>\n\n            <ion-item class=\"item-form\">\n                <ion-input [(ngModel)]=\"password\"\n                           type=\"password\"\n                           placeholder=\"Digite a senha\">\n                </ion-input>\n            </ion-item>\n\n            <ion-button class=\"btn-confirm btn-round\" (click)=\"onConfirm()\">Confirmar</ion-button>\n        </div>\n    </ion-fab>\n</ion-content>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-content>\n    <ion-fab class=\"fab-modal-action\" vertical=\"center\" horizontal=\"center\" slot=\"fixed\">\n\n        <ion-button class=\"btn-close btn-light\"\n                    (click)=\"onClose()\">\n        </ion-button>\n\n        <div class=\"content-modal\">\n            <p class=\"lb-title\">Confirmar transferência</p>\n\n            <p>Valor a transferir <br>\n                <b>R${{valor}},00</b> <br> <br>\n                Para\n            </p>\n\n            <div *ngIf=\"newContact\">\n                <div class=\"lb-info\">{{info.name}}</div>\n                <div class=\"lb-info\">{{info.institution}}</div>\n\n                <div class=\"display-flex justify-space-between\">\n                    <div class=\"lb-info\">Agência {{info.agency}}</div>\n                    <div class=\"lb-info\">Conta {{info.account}}</div>\n                </div>\n            </div>\n\n            <div class=\"lb-info display-flex justify-start\" *ngIf=\"!newContact\">\n\n                <img alt=\"\" class=\"img-photo\" [ngClass]=\"{'no-photo':!info.foto}\"\n                     [src]=\"info.foto ? info.foto : './assets/icons/img-icon-avatar.png'\">\n\n                <div class=\"lb-nome\">{{info.nome}}</div>\n            </div>\n\n            <ion-item class=\"item-form\">\n                <ion-input [(ngModel)]=\"password\"\n                           type=\"password\"\n                           placeholder=\"Digite a senha\">\n                </ion-input>\n            </ion-item>\n\n            <ion-button class=\"btn-confirm btn-round\" (click)=\"onConfirm()\">Confirmar</ion-button>\n        </div>\n    </ion-fab>\n</ion-content>\n");
 
 /***/ }),
 
@@ -1548,25 +1548,25 @@ let AnimalSlidesComponent = class AnimalSlidesComponent {
                 id: '14',
                 nome: 'Jacaré',
                 numeros: ['71', '54', '65', '85'],
-                icone: '/assets/imgs/animais/icon-leao.png',
+                icone: './assets/imgs/animais/icon-leao.png',
             },
             {
                 id: '15',
                 nome: 'Leão',
                 numeros: ['71', '54', '65', '85'],
-                icone: '/assets/imgs/animais/icon-leao.png',
+                icone: './assets/imgs/animais/icon-leao.png',
             },
             {
                 id: '16',
                 nome: 'Macaco',
                 numeros: ['71', '54', '65', '85'],
-                icone: '/assets/imgs/animais/icon-leao.png',
+                icone: './assets/imgs/animais/icon-leao.png',
             },
             {
                 id: '17',
                 nome: 'Gato',
                 numeros: ['71', '54', '65', '85'],
-                icone: '/assets/imgs/animais/icon-leao.png',
+                icone: './assets/imgs/animais/icon-leao.png',
             },
         ];
         this.slidesParams = {
@@ -2162,7 +2162,7 @@ __webpack_require__.r(__webpack_exports__);
 let ModalPuleComponent = class ModalPuleComponent {
     constructor(modalCtrl) {
         this.modalCtrl = modalCtrl;
-        this.imagemPule = '/assets/imgs/img-pule.png';
+        this.imagemPule = './assets/imgs/img-pule.png';
     }
     ngOnInit() {
         return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function* () {
